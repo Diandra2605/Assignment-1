@@ -16,7 +16,7 @@ Beberapa komponen teknis utama yang diimplementasikan dalam kode ini adalah:
 - Fungsi `dayOfDate`: Menggunakan fungsi mktime untuk menormalisasi data tanggal dan mengambil indeks hari (tm_wday) guna menentukan nama hari dalam bahasa Indonesia.
 
 ## Implementasi Kode Program
-```
+```cpp
 int yearsOld(tm* inputTgl, tm* currentTgl)
 {
     int year = currentTgl->tm_year - inputTgl->tm_year;
